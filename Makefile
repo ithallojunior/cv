@@ -17,4 +17,4 @@ en:
 
 clean:
 	@echo "cleaning..."
-	@rm -r *.aux *.bbl *.blg *.log *.pdf *.out
+	@rm -r *.aux *.bbl *.blg *.log  *.out
