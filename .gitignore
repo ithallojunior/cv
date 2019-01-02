@@ -1,0 +1,14 @@
+# OS X files
+.DS_STORE
+
+# vim  files
+*.swp
+*.swa
+
+# LaTeX stuff
+*.bbl
+*.out
+*.aux
+*.blg
+*.log
+
