@@ -1,7 +1,7 @@
 #LaTeX maker
 
 paper=cv
-eng_paper= cv_en
+eng_paper=cv_en
 
 all:
 	pdflatex ${paper}
