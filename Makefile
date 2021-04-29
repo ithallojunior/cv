@@ -5,14 +5,14 @@ eng_paper=cv_en
 
 all:
 	pdflatex ${paper}
-	bibtex ${paper} 	
-	pdflatex ${paper}
+	#bibtex ${paper} 	
+	#pdflatex ${paper}
 	pdflatex ${paper}
 
 en:
 	pdflatex ${eng_paper}
-	bibtex ${eng_paper} 	
-	pdflatex ${eng_paper}
+	#bibtex ${eng_paper} 	
+	#pdflatex ${eng_paper}
 	pdflatex ${eng_paper}
 
 clean:
